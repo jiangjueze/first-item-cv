@@ -1,0 +1,336 @@
+/* 取消默认样式 */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+/* 顶部头像姓名信息 */
+.header{
+    height: 160px;
+    background-color: rgb(48, 47, 47);
+    text-align: center;
+}
+
+.header img{
+    height: 64px;
+    width: 64px;
+    object-fit: cover;
+    border-radius: 64px;
+    margin-top: 20px;
+    /* vertical-align: bottom; */
+}
+
+.header p{
+    color:rgba(255, 255, 255, 0.5);
+    margin:10px 0px;
+    font-size: 14px;
+}
+
+/* 中间六块信息设置 */
+.wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 40px auto;
+    width: 800px;
+}
+/* 小标题前的icon统一的样式 */
+span.iconfont{
+    font-size: 16px;
+}
+span.icon-start{
+    color:#fff;
+    background-color: rgb(119,168,163);
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+/* 1.基本信息 */
+/* 基本信息头部 */
+.base-info{
+    margin: 0px 20px 20px 0px;
+    flex:1;
+}
+.info-header{
+    display: flex;
+    align-items: center;
+    /* width: 200px; */
+}
+
+.info-header h2{
+    margin:0 16px;
+    font-size: 18px;
+}
+
+.info-header::after{
+    content:" ";
+    display: block;
+    flex:1;
+    height: 2px;
+    background-color: rgb(119,168,163);
+}
+
+/* 基本信息底部 */
+.base-info .info-content{
+    margin: 20px 40px 40px 50px;
+}
+
+.info-content li{
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+
+.info-content li>span{
+    margin-right: 8px;
+}
+
+/* 2.教育经历 */
+/* 教育经历头部 */
+.education-experience{
+    flex: 2;
+}
+.education-header{
+    display: flex;
+    align-items: center;
+}
+
+.education-header h2{
+    margin:0 16px;
+    font-size: 18px;
+}
+
+.education-header::after{
+    content:" ";
+    display: block;
+    flex:1;
+    height: 2px;
+    background-color: rgb(119,168,163);
+}
+
+/* 教育经历底部 */
+.education-info-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+p.education-time{
+    font-size: 12px;
+    margin-right: 12px;
+}
+
+p.education-school{
+    font-size: 16px;
+    margin-right: 150px;
+    font-weight: bolder;
+}
+
+p.education-major{
+    font-size: 12px;
+}
+
+div.education-comments{
+    width: 300px;
+    font-size: 14px;
+    /* text-align: center; */
+    margin-left: 115px;
+    margin-top: 8px;
+}
+
+.education-info{
+    margin-bottom: 10px;
+}
+
+div.education-infos{
+    margin:16px 40px 40px 50px;
+}
+
+/* 3.掌握技能 */
+.skills{
+    margin: 0px 20px 20px 0px;
+    flex: 1;
+}
+/* 掌握技能头部 */
+.skills-header{
+    display: flex;
+    align-items: center;
+}
+
+.skills-header h2{
+    margin:0 16px;
+    font-size: 18px;
+}
+
+.skills-header::after{
+    content:" ";
+    display: block;
+    flex:1;
+    height: 2px;
+    background-color: rgb(119,168,163);
+}
+
+/* 掌握技能底部 */
+.skills-infos{
+    margin: 30px 10px 40px 60px;
+}
+.skills-infos .skills-info li{
+    list-style: disc;
+    width: 250px;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+/* 4.工作经历 */
+/* 工作经历头部 */
+.work-experience{
+    flex:2;
+}
+.work-header{
+    display: flex;
+    align-items: center;
+}
+
+.work-header h2{
+    margin:0 16px;
+    font-size: 18px;
+}
+
+.work-header::after{
+    content:" ";
+    display: block;
+    flex:1;
+    height: 2px;
+    background-color: rgb(119,168,163);
+}
+
+/* 工作经历底部 */
+.work-info-wrapper{
+    display: flex;
+    align-items: center;
+    margin: 30px 0px 10px 40px;
+}
+
+p.work-time{
+    font-size: 12px;
+    margin-right: 12px;
+}
+
+p.work-school{
+    font-size: 16px;
+    margin-right: 150px;
+    font-weight: bolder;
+}
+
+p.work-major{
+    font-size: 12px;
+}
+
+.work-introduce li{
+    list-style: circle;
+    width: 300px;
+    margin-left: 150px;
+}
+
+/* 5.技能图谱 */
+/* 技能图谱头部 */
+.skill-picture{
+    flex: 1;
+    margin-right: 20px;
+}
+.picture-header{
+    display: flex;
+    align-items: center;
+}
+
+.picture-header h2{
+    margin:0 16px;
+    font-size: 18px;
+}
+
+.picture-header::after{
+    content:" ";
+    display: block;
+    flex:1;
+    height: 2px;
+    background-color: rgb(119,168,163);
+}
+
+/* 技能图谱底部 */
+.picture-content{
+    margin: 40px 0px 40px 40px;
+}
+
+.picture-content li{
+    margin:20px 0;
+}
+
+.line1,
+.line2,
+.line3,
+.line4,
+.line5{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(204,204,204);
+}
+
+.bar{
+    background-color: rgb(119,168,163);
+    height: 2px;
+    display: block;
+}
+
+/* 6.项目经历 */
+/* 项目经历头部 */
+.item-experience{
+    flex:2;
+}
+.item-header{
+    display: flex;
+    align-items: center;
+}
+
+.item-header h2{
+    margin:0 16px;
+    font-size: 18px;
+}
+
+.item-header::after{
+    content:" ";
+    display: block;
+    flex:1;
+    height: 2px;
+    background-color: rgb(119,168,163);
+}
+
+/* 项目经历底部 */
+
+.item-info-wrapper{
+    display: flex;
+    align-items: center;
+    margin: 30px 0px 10px 40px;
+}
+
+p.item-time{
+    font-size: 12px;
+    margin-right: 12px;
+}
+
+p.item-school{
+    font-size: 16px;
+    margin-right: 150px;
+    font-weight: bolder;
+}
+
+.item-introduce li{
+    list-style: circle;
+    width: 300px;
+    margin-left: 150px;
+}
+

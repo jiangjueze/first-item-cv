@@ -1,12 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>我的在线简历</title>
+    <link rel="stylesheet" href="./css.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_3239048_sd0ywh7xx7.css">
 </head>
+
 <body>
-    <h1>我的简历</h1>
+    <div class="header">
+        <img src="https://img1.baidu.com/it/u=2683779492,2664501665&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=707" alt="">
+        <p>姓名：彭于晏</p>
+        <p>应聘前端工程师</p>
+    </div>
+
+    <div class="wrapper">
+        <!-- 1.基本信息 -->
+        <div class="base-info">
+            <div class="info-header">
+                <span class="icon-start iconfont icon-essential-information"></span>
+                <h2>基本信息</h2>
+            </div>
+            <ul class="info-content">
+                <li><span class="iconfont icon-dianhua"></span>14712341234</li>
+                <li><span class="iconfont icon-weixin"></span>lalalalalala</li>
+                <li><span class="iconfont icon-youjian"></span>931914369@qq.com</li>
+                <li><span class="iconfont icon-edu"></span>大专</li>
+            </ul>
+        </div>
+
+        <!-- 2.教育经历 -->
+        <div class="education-experience">
+            <div class="education-header">
+                <span class="icon-start iconfont icon-jiaoyujingli"></span>
+                <h2>教育经历</h2>
+            </div>
+            <div class="education-infos">
+                <div class="education-info">
+                    <div class="education-info-wrapper">
+                        <p class="education-time">09/2013~07/2017</p>
+                        <p class="education-school">电子科技大学</p>
+                        <p class="education-major">计算机专业</p>
+                    </div>
+                    <div class="education-comments">
+                        校内荣誉：多次获得校一等奖学金，成绩排名专业前10%
+                    </div>
+                </div>
+                <div class="education-info">
+                    <div class="education-info-wrapper">
+                        <p class="education-time">09/2013~07/2017</p>
+                        <p class="education-school">电子科技大学</p>
+                        <p class="education-major">计算机专业</p>
+                    </div>
+                    <div class="education-comments">
+                        校内荣誉：多次获得校一等奖学金，成绩排名专业前10%
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3.掌握技能 -->
+        <div class="skills">
+            <div class="skills-header">
+                <span class="icon-start iconfont icon-jineng"></span>
+                <h2>掌握技能</h2>
+            </div>
+            <div class="skills-infos">
+                <ul class="skills-info">
+                    <li>掌握HTML5/CSS3，熟悉传统布局、Flex布局、Grid布局、移动端适配等</li>
+                    <li>熟悉Vue技术栈如Vue-Router、Vuex、Vue-CLI及相关流行库的使用，理解其重要概念</li>
+                    <li>熟悉React / Redux技术栈等使用，能够使用React进行基本开发</li>
+                    <li>熟悉前后端交互技术JSONP、AJAX，了解fetch</li>
+                    <li>熟悉Node.js开发，能搭建基础后台开发</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 4.工作经历 -->
+        <div class="work-experience">
+            <div class="work-header">
+                <span class="icon-start iconfont icon-gongzuojingli"></span>
+                <h2>工作经历</h2>
+            </div>
+            <div class="work-infos">
+                <div class="work-info">
+                    <div class="work-info-wrapper">
+                        <p class="work-time">09/2013~07/2017</p>
+                        <p class="work-school">电子科技大学</p>
+                        <p class="work-major">副教授</p>
+                    </div>
+                    <ul class="work-introduce">
+                        <li>
+                            项目介绍： 该项目的目的是搭建线上学习平台，把线下课堂的完整学习流程搬到线上，
+                            平台包括课程展示、购买、直播、录播、作业、权限管理、停课复课、试听等几十个大功能。
+                            该项目采用前后分离的技术方案， 我主要负责前端部分的开发。项目前端部分使用Vue技术栈，
+                            移动端平台使用自己实现的vue ui组件库。
+                        </li>
+                        <li>
+                            技术栈：vue、vue-router、vuex、element-ui、typescript、webpack、es6、移动端
+                        </li>
+                        <li>
+                            项目成果: 项目支撑饥人谷日常教学活动、运营活动的正常开展，支持数千学生的日常线上学习，
+                            几十万用户的日常访问。
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- 5.技能图谱 -->
+        <div class="skill-picture">
+            <div class="picture-header">
+                <span class="icon-start iconfont icon-jineng"></span>
+                <h2>技能图谱</h2>
+            </div>
+            <ul class="picture-content">
+                <li>JavaScript</li>
+                <li class="line1"><span class="bar" style="width:30%"></span></li>
+                <li>CSS3</li>
+                <li class="line2"><span class="bar" style="width:60%"></span></li>
+                <li>Node</li>
+                <li class="line3"><span class="bar" style="width:20%"></span></li>
+                <li>Vue</li>
+                <li class="line4"><span class="bar" style="width:80%"></span></li>
+                <li>React</li>
+                <li class="line5"><span class="bar" style="width:90%"></span></li>
+            </ul>
+        </div>
+
+        <!-- 6.项目经历 -->
+        <div class="item-experience">
+            <div class="item-header">
+                <span class="icon-start iconfont icon-xiangmujingli"></span>
+                <h2>技能图谱</h2>
+            </div>
+            <div class="item-infos">
+                <div class="item-info">
+                    <div class="item-info-wrapper">
+                        <p class="item-time">09/2013~07/2017</p>
+                        <p class="item-school">写代码啦课程平台Web端项目</p>
+                    </div>
+                    <ul class="item-introduce">
+                        <li>
+                            项目介绍： 该项目的目的是搭建线上学习平台，把线下课堂的完整学习流程搬到线上，
+                            平台包括课程展示、购买、直播、录播、作业、权限管理、停课复课、试听等几十个大功能。
+                            该项目采用前后分离的技术方案， 我主要负责前端部分的开发。项目前端部分使用Vue技术栈，
+                            移动端平台使用自己实现的vue ui组件库。
+                        </li>
+                        <li>
+                            技术栈：vue、vue-router、vuex、element-ui、typescript、webpack、es6、移动端
+                        </li>
+                        <li>
+                            项目成果: 项目支撑饥人谷日常教学活动、运营活动的正常开展，支持数千学生的日常线上学习，
+                            几十万用户的日常访问。
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
