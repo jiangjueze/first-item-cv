@@ -40,6 +40,13 @@ ul{
     margin: 40px auto;
     width: 800px;
 }
+
+@media (max-width:678px){
+    .wrapper{
+        width: 400px;
+        
+    }
+}
 /* 小标题前的icon统一的样式 */
 span.iconfont{
     font-size: 16px;
@@ -120,6 +127,12 @@ span.icon-start{
     align-items: center;
 }
 
+@media (max-width:678px){
+    .education-info-wrapper{
+        flex-wrap: wrap;
+    }
+}
+
 p.education-time{
     font-size: 12px;
     margin-right: 12px;
@@ -129,6 +142,12 @@ p.education-school{
     font-size: 16px;
     margin-right: 150px;
     font-weight: bolder;
+}
+
+@media (max-width:678px){
+    p.education-school{
+        margin-right: 30px;
+    }
 }
 
 p.education-major{
@@ -141,6 +160,12 @@ div.education-comments{
     /* text-align: center; */
     margin-left: 115px;
     margin-top: 8px;
+}
+
+@media (max-width:678px){
+    div.education-comments{
+        margin-left: 0px;
+    }
 }
 
 .education-info{
@@ -227,6 +252,12 @@ p.work-school{
     font-weight: bolder;
 }
 
+@media (max-width:678px){
+    p.work-school{
+        margin-right:50px;
+    }
+}
+
 p.work-major{
     font-size: 12px;
 }
@@ -235,6 +266,12 @@ p.work-major{
     list-style: circle;
     width: 300px;
     margin-left: 150px;
+}
+
+@media (max-width:678px){
+    .work-introduce li{
+        margin-left: 60px;
+    }
 }
 
 /* 5.技能图谱 */
@@ -324,7 +361,7 @@ p.item-time{
 
 p.item-school{
     font-size: 16px;
-    margin-right: 150px;
+    /* margin-right: 150px; */
     font-weight: bolder;
 }
 
@@ -332,5 +369,11 @@ p.item-school{
     list-style: circle;
     width: 300px;
     margin-left: 150px;
+}
+
+@media (max-width:678px){
+    .item-introduce li{
+        margin-left: 60px;
+    }
 }
 
