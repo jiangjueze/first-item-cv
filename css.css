@@ -52,11 +52,14 @@ span.iconfont{
     font-size: 16px;
 }
 span.icon-start{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
     color:#fff;
     background-color: rgb(119,168,163);
     padding: 8px;
-    border-radius: 20px;
-    font-size: 12px;
+    border-radius: 50%;
+    font-size: 16px;
 }
 
 /* 1.基本信息 */
@@ -235,6 +238,11 @@ div.education-infos{
 }
 
 /* 工作经历底部 */
+@media (max-width:678px){
+    .work-info{
+        margin-bottom:50px;
+    }
+}
 .work-info-wrapper{
     display: flex;
     align-items: center;
